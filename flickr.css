@@ -1,0 +1,101 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box
+  ;
+}
+
+body{
+  width: 100%; 
+  height: 400px; 
+  background-image: url(/images/sqi1\ \(1\).jpg); 
+  background-size: cover; 
+  background-position: center;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  background-color: rgb(87,87,87,0.3);
+}
+
+.logo{
+  display: flex;
+  height: 30px;
+}
+
+.search input{
+  width: 807px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  padding: 0px 0px 0px 50px;
+}
+
+/* .serachicon{
+  position: relative;
+  margin-left: 50px;
+} */
+
+.login{
+  cursor: pointer;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  color: white;
+  margin-left:;
+}
+
+.signup{
+  background-color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 95px;
+  height: 32px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.find-your{
+  color: white;
+  padding: 150px 0px 50px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 46px;
+  line-height: 46px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.Join-the-Flickr{
+  color: white;
+  padding: 0px 300px 100px 400px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 26px;
+  line-height: 32px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.section2{
+  padding: 0px 0px 0px 600px;
+}
+
+.start{
+  width: 200px;
+  height: 65px;
+  font-size: 24px;
+  line-height: 64px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.start :hover{
+  color: white;
+}
